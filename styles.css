@@ -185,7 +185,7 @@ body {
 .main-text .Name {
     flex: 1 1 auto;
     align-self: flex-end;
-    margin-right: 450px;
+    margin-right: 800px;
     width: 250px;
     text-align: right;
     font-size: x-large;
