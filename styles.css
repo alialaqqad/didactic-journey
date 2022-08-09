@@ -1,0 +1,50 @@
+* {
+    border: 1px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    flex: 1 1 auto;
+    background-color: #1F2937;
+    height: 250px;
+    margin: 0%;
+}
+
+.container {
+    display: flex;
+    flex: 1 1 auto;
+    height: 250px;
+    background-color: white;
+}
+
+.text {
+    display: flex;
+    flex: 1 1 auto;
+    height: 200px;
+    background-color: #E5E7EB;
+}
+
+.sign-in {
+    display: flex;
+    flex: 1 1 auto;
+    height: 150px;
+}
+
+.footer {
+    display: flex;
+    flex: 1 1 auto;
+    height: 50px;
+    #1F2937
+}
+
+<div class="hero"></div>
+<div class="container"></div>
+<div class="text"></div>
+<div class="sign-in"></div>
+<div class="footer"></div>
