@@ -8,7 +8,8 @@ body {
 }
 
 .hero {
-    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
     background-color: #1F2937;
     height: 600px;
     color: white;
@@ -16,36 +17,44 @@ body {
     padding-left: 180px;
     padding-right: 180px;
     padding-top: 5px;
-
 }
 
 .header {
     display: flex;
-    justify-content: center;
+    flex: 0 0 0;
+    justify-content: space-between;
+    height: 100px;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 10px;
+    padding: 0px;
 }
-.Header-logo {
-    flex: 0.1 0 0;
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: bold;
-    margin-left: 0px;
-    margin-top: 0px;
+
+.logo {
+    display: flex;
+    flex: 1 0 0;
+}
+.sub-logo {
+    flex: 0 0 auto;
+    margin: 0px;
+    width: 120px;
     height: 100px;
-    border: 1px solid skyblue;
     background-image: url(images/logo.png);
     background-size: 100%;
-    border-radius: 12px;
+    border: 1px solid skyblue;
+    border-radius: 20px;
 }
-.header ul {
+
+.header .ul {
     display: flex;
     flex-direction: row-reverse;
+    flex: 0 0 0;
     list-style: none;
     flex: 1;
     margin: 0px;
-    height: 30px;
+    margin-right: 125px;
+    width: 600px;
+    height: 100px;
     gap: 20px;
 }
 
@@ -61,36 +70,34 @@ body {
 
 .sub-header {
     display: flex;
+    flex: 0 0 auto;
+    height: 400px;
+    margin-bottom: 400px;
 }
 .intro {
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: 50px;
-    margin: 0px;
+    margin: 50px;
 }
 
 .intro h1 {
-    flex: 1;
+    flex: 0 0 auto;
     padding: 20px;
     width: 350px;
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
-    padding-left: 0;
-    margin-bottom: 0;
+    padding: 0px;
+    margin: 0px;
 }
 .intro .parag {
-    flex: 1;
-    margin-top: auto;
-    padding: 10px;
+    flex: 0 0 auto;
     width: 400px;
-    padding-left: 0;
-    
 }
 
 .intro .button {
-    flex: 1;
+    flex: 0 0 auto;
     border: none;
     border-radius: 5px;
     width: 100px;
@@ -105,14 +112,13 @@ body {
 }
 
 .sub-header .img {
-    display: flex;
-    flex: 1;
-    margin: 100px;
-    margin-right: 50px;
-    margin-bottom: 50px;
+    flex: 0 0 auto;
+    padding: 200px;
+    margin-right: 175px;
     background-color: grey;
-    font-size: 20px;
-    padding: 50px;}
+    background-image: url(images/pic-2.jpg);
+    background-size: 100%;
+}
 
 .container {
     display: flex;
@@ -146,7 +152,22 @@ body {
     margin: 0px;
     padding: 0px;
 }
-
+.one {
+    background-image: url(images/pic-1.jpg);
+    background-size: cover;
+}
+.two {
+    background-image: url(images/pic-3.jpg);
+    background-size: cover;
+}
+.three {
+    background-image: url(images/pic-4.jpg);
+    background-size: cover;
+}
+.four {
+    background-image: url(images/pic-5.jpg);
+    background-size: cover;
+}
 .container .text {
     display: flex;
     width: 800px;
