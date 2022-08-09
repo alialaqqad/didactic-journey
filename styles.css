@@ -168,7 +168,7 @@ body {
     background-color: #E5E7EB;
     height: 400px;
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 .main-text .quote {
     flex: 1 1 auto;
@@ -193,10 +193,55 @@ body {
     color: #302f2f;
 }
 
-.sign-in {
+.sign-up {
     display: flex;
-    flex: 1 1 auto;
+    flex: 1;
     height: 150px;
+
+    margin-top: 0px;
+    padding: 80px;
+    justify-content: center;    
+}
+.container-3 {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 12px;
+}
+
+.sign-up .container-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 800px;
+    border-radius: 12px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.container-2 h3 {
+    flex: 1 1 auto;
+    font-size: xx-large;
+    margin-top: 0px;
+}
+.container-2 .sign-info {
+    flex: 1 1 auto;
+    font-size: x-large;
+}
+
+.click {
+    background-color: #3882F6;
+    border-radius: 12px;
+    margin: 20px;
+    margin-top: 60px;
+    width: 100px;
+    height: 50px;
+    border: 3px solid white;
+}
+
+.click a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
 }
 
 .footer {
