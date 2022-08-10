@@ -1,4 +1,2 @@
 # didactic-journey
-This is where it all comes. A full CSS and HTML pretty website design, that collect my all skills power in web design that I have obtained.
-
-In addition, this website is for travelers, people who has passion in traveling, or who would like to travel in future. It will show you many wonderful places and natures, that you would love to visit, which give you inspire to start your travel journey.
+This is my first CSS webpage. I am still a beginner but I believe it will end with a pretty website design, that collect what skills I learned so far in web design.
